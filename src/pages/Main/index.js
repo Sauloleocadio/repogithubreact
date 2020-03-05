@@ -11,7 +11,7 @@ export default function Main(){
   const [loading, setLoading] = useState(false);
   const [alert, setAlert] = useState(null);
 
-  // Buscar
+  // Buscar charles
   useEffect(()=>{
     const repoStorage = localStorage.getItem('repos');
 
